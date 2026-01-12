@@ -1,0 +1,162 @@
+header {
+  height: 100vh;
+  background-color: #3e3e3e;
+  color: white;
+  border: 1px solid transparent;
+}
+nav {
+  border-bottom: 1px solid white;
+}
+nav .logo {
+  width: 10%;
+}
+nav .logo img {
+  width: 100%;
+}
+nav ul {
+  overflow: auto;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 25px;
+  font-size: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .box {
+  text-align: center;
+  margin-top: 120px;
+  letter-spacing: 2px;
+}
+header .box h1 {
+  margin-block: 10px;
+  font-size: 60px;
+}
+header .box h3 {
+  margin-block: 30px;
+  font-weight: 300;
+}
+#about {
+  background-color: #73281a;
+}
+#about .part1 {
+  width: 50%;
+  padding: 30px;
+  margin-top: 30px;
+  color: white;
+  letter-spacing: 2px;
+}
+#about .part1 h2 {
+  font-size: 60px;
+  text-align: center;
+}
+#about .part1 h4 {
+  font-size: 20px;
+  margin-block: 10px;
+  text-align: center;
+}
+#about .part1 p {
+  line-height: 2;
+}
+#about .part1 span {
+  background-color: #ff894f;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+  /* letter-spacing: initial; */
+  font-weight: 500;
+}
+#about .part2 {
+  width: 50%;
+  padding: 40px;
+}
+#about .part2 img {
+  width: 100%;
+  border-radius: 30px;
+}
+#menu {
+  background-color: #3e3e3e;
+  color: white;
+}
+#menu .part1,
+#menu .part2,
+#menu .part3,
+#menu .part4 {
+  width: 50%;
+  padding: 20px;
+}
+
+#menu .part1 .photo,
+#menu .part2 .photo,
+#menu .part3 .photo,
+#menu .part4 .photo {
+  width: 80%;
+  margin: auto;
+}
+#menu .part1 img,
+#menu .part2 img,
+#menu .part3 img,
+#menu .part4 img {
+  width: 100%;
+  border-radius: 30px;
+}
+#menu h3 {
+  text-align: center;
+  font-size: 40px;
+}
+#menu .info {
+  width: 80%;
+  margin: auto;
+}
+#menu ul {
+  overflow: auto;
+  padding: 20px;
+  list-style: square;
+}
+#menu ul li {
+  float: left;
+  width: 25%;
+}
+#book_naw {
+  background-color: #73281a;
+}
+form {
+  width: 40%;
+  margin: auto;
+  font-size: 25px;
+  color: white;
+}
+#book_naw .input * {
+  width: 100%;
+  margin-block: 15px;
+}
+input {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
+#Message {
+  height: 100px;
+  resize: none;
+  border-radius: 5px;
+}
+button {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-block: 25px;
+  border: 1px solid white;
+}
+footer {
+  background-color: #3e3e3e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}

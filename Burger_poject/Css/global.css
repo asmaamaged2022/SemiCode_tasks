@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  height: 3000px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.contener {
+  margin: auto;
+  width: 90%;
+  overflow: auto;
+}
+.float_lift {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.title {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-block: 30px;
+}
