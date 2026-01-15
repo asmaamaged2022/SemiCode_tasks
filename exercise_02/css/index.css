@@ -1,0 +1,104 @@
+.card1 .image {
+  background-image: url(../image/coffee_1-c62ba359.jpg);
+}
+.card2 .image {
+  background-image: url(../image/coffee_2-5baa1bab.jpg);
+}
+.card3 .image {
+  background-image: url(../image/coffee_3-3dff9d34.jpeg);
+}
+.card1 .image,
+.card2 .image,
+.card3 .image {
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 4px solid #986a00;
+}
+.card1,
+.card2,
+.card3 {
+  width: 400px;
+  height: 680px;
+  display: inline-block;
+  border: 4px solid #986a00;
+  box-shadow: 10px 10px 10px #ccc;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card1 span,
+.card2 span,
+.card3 span {
+  color: #ccc;
+  font-size: 15px;
+  text-decoration: line-through;
+}
+.content {
+  line-height: 2;
+  letter-spacing: 1.6px;
+}
+.box1 button {
+  background-color: #986a00;
+  border-radius: 80px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  color: white;
+  letter-spacing: 2px;
+  /* في سؤال هنا */
+}
+.price {
+  font-size: 25px;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+/*///////////////////////////////////////////////////*/
+.card4,
+.card5,
+.card6 {
+  width: 350px;
+  height: 480px;
+  display: inline-block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2.5;
+  letter-spacing: 1.6px;
+}
+img {
+  width: 130px;
+  height: 130px;
+}
+.card5 {
+  background-color: #ee3c5a;
+  border: 3px solid #ee3c5a;
+  color: white;
+}
+
+.card4,
+.card6 {
+  border: 3px solid black;
+}
+.box2 .card4 button,
+.box2 .card5 button,
+.box2 .card6 button {
+  border-radius: 80px;
+
+  width: 200px;
+  height: 50px;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+.box2 .card4 button,
+.box2 .card6 button {
+  background-color: black;
+  border: none;
+}
+.box2 .card5 button {
+  background-color: white;
+  color: #ee3c5a;
+}
